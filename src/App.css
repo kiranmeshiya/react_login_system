@@ -1,0 +1,406 @@
+
+/* playfair-display-500 - latin */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./fonts/playfair-display-v30-latin-500.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('./fonts/playfair-display-v30-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/playfair-display-v30-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/playfair-display-v30-latin-500.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/playfair-display-v30-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+       /* url('./fonts/playfair-display-v30-latin-500.svg#PlayfairDisplay') format('svg'); Legacy iOS */
+}
+/* playfair-display-600 - latin */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./fonts/playfair-display-v30-latin-600.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('./fonts/playfair-display-v30-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/playfair-display-v30-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/playfair-display-v30-latin-600.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/playfair-display-v30-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+       /* url('./fonts/playfair-display-v30-latin-600.svg#PlayfairDisplay') format('svg'); Legacy iOS */
+}
+/* playfair-display-700 - latin */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./fonts/playfair-display-v30-latin-700.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('./fonts/playfair-display-v30-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/playfair-display-v30-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/playfair-display-v30-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/playfair-display-v30-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       /* url('./fonts/playfair-display-v30-latin-700.svg#PlayfairDisplay') format('svg'); Legacy iOS */
+}
+/* playfair-display-800 - latin */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 800;
+  src: url('./fonts/playfair-display-v30-latin-800.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('./fonts/playfair-display-v30-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/playfair-display-v30-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/playfair-display-v30-latin-800.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/playfair-display-v30-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
+       /* url('./fonts/playfair-display-v30-latin-800.svg#PlayfairDisplay') format('svg'); Legacy iOS */
+}
+/* playfair-display-900 - latin */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 900;
+  src: url('./fonts/playfair-display-v30-latin-900.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('./fonts/playfair-display-v30-latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/playfair-display-v30-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/playfair-display-v30-latin-900.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/playfair-display-v30-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
+       /* url('./fonts/playfair-display-v30-latin-900.svg#PlayfairDisplay') format('svg'); Legacy iOS */
+}
+
+/*---------------------------------------------1 font end--------------------------------------------- */
+/* --------------------------------------------2 font start-------------------------------------------*/
+/* poppins-regular - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/poppins-v20-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('./fonts/poppins-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/poppins-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/poppins-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/poppins-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       /* url('./fonts/poppins-v20-latin-regular.svg#Poppins') format('svg'); Legacy iOS */
+}
+/* poppins-500 - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./fonts/poppins-v20-latin-500.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('./fonts/poppins-v20-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/poppins-v20-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/poppins-v20-latin-500.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/poppins-v20-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+       /* url('./fonts/poppins-v20-latin-500.svg#Poppins') format('svg'); Legacy iOS */
+}
+/*---------------------------------------------2 font end--------------------------------------------- */
+
+           /*------------------------------------------------------------
+                                     Defult css
+        ------------------------------------------------------------------*/
+body
+{
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 26px;
+}          
+:root
+{
+  --btn:#FAA292;
+  --text:#777;
+  --heading:black;
+  --theme:white;
+  --line-height:26px;
+  --font:15px;
+}
+h1,h2,h3,h4,h5,h6
+{
+  font-family: 'Playfair Display';
+  overflow-wrap: break-word;
+}
+.spacer
+{
+  padding: 120px 0;
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}    
+.text
+{
+  font-family:'Playfair Display' ;
+}
+.font
+{
+  font-family: 'poppins';
+}
+.spacing
+{
+  margin-top: 200px;
+
+}
+
+.img-fluid {
+  max-width: 100%!important;
+  height: auto!important;
+}    
+
+        /*------------------------------------------------------------
+                                     Custom css
+        ------------------------------------------------------------------*/
+
+
+.header-input
+{
+  border: solid 0;
+  padding: 0 1rem;
+  width: 100%;
+  height: 3.4rem;
+  position: relative;
+  border-radius: 5px;
+  outline: none !important;
+  margin-bottom: 0;
+
+}
+.btn
+{
+  padding: 15px 35px!important;
+  background: transparent linear-gradient(90deg, #faa292 0%, #faa292 100%) 0% 0% no-repeat padding-box;
+  /* border: none; */
+  border-radius: 10px!important;
+  color: #fff!important;
+  display: inline-block;
+  font-size: 20px!important;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1;
+  text-align: center;
+  text-transform: unset;
+  transition: all 0.3s ease 0s;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+  z-index: 999;
+
+}
+.header-btn
+{
+  border-radius: 10px;
+  background-color: rgb(250, 162, 146);
+  box-shadow: 2.5px 4.33px 15px 0px rgb(250 162 146 / 40%);
+  color: #fff;
+}
+.sec_img img
+{
+  max-width: 100%;
+}
+
+
+/*---------------------------------------------------------section 5------------------------------------------------------------*/
+.sec5,.register
+{
+  background-image: url(./image/asset\ 33.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+  z-index: 1;
+  position: relative;
+}
+
+
+.contact_bg {
+  position: absolute;
+  left: 9.8%;
+  top: 30%!important;
+  z-index: -1;
+}
+.contact_bg2 {
+  position: absolute;
+  right: 5%;
+  bottom: 7%;
+  z-index: -1;
+}
+.col-6
+{
+  position: relative;
+  width: 50%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.contact_bg3 {
+  background: #fff;
+  padding: 50px 50px 15px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2.5px 4.33px 15px 0px rgb(0 0 0 / 15%);
+}
+.section_title
+{
+  margin-bottom: 30px;
+}
+.section_title h2 {
+  font-size: 48px;
+  padding-bottom: 0;
+  font-weight: 700;
+  margin-bottom: 10px;
+  position: relative;
+}
+.contact_field
+{
+  padding-right: 15px;
+  margin-bottom: 20px;
+  position: relative;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 19px;
+}
+.form-check-input
+{
+  scale: 0.7;
+}
+.radioo
+{
+  scale: 0.50!important;
+}
+.contact_field input,select,textarea
+{
+  outline: none;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  padding: 15px;
+  box-shadow: 2.5px 4.33px 15px 0px rgb(0 0 0 / 15%);
+  border-radius: 10px;
+  transition: .3s;
+}
+.about-content
+{
+  padding-left: 30px;
+  
+}
+.about-title1
+{
+  background-color: transparent;
+  color: #000;
+  padding: 0;
+  padding-bottom: 20px;
+
+}
+.about-title1 h2
+{
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+.line img
+{
+  margin-bottom: 20px;
+}
+.about-content p
+{
+  margin-bottom: 15px;
+  color: #62605c;
+  overflow-wrap: break-word;
+  width: 98%;
+}
+.area
+{
+  height: 200px!important;
+  padding: 30px 0px;
+}
+.database ._links
+{
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: underline!important;
+}
+
+
+/* ======================= login ======================== */
+.login
+{
+  background-image: url(./image/asset\ 33.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px 0 50px;
+  z-index: 1;
+  position: relative;
+height: 100vh;
+}
+.contact_bg1 {
+  position: absolute;
+  left: 12%;
+  top: 18%!important;
+  z-index: -1;
+}
+.contact_bg22 {
+  position: absolute;
+  right: 5%;
+  bottom: 7%;
+  z-index: -1;
+}
+.btn_login
+{
+  padding: 12px 25px;
+  background: transparent linear-gradient(90deg, #faa292 0%, #faa292 100%) 0% 0% no-repeat padding-box;
+  border: none!important;
+  border-radius: 10px!important;
+  color: #fff;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1;
+  text-align: center;
+  text-transform: unset;
+  transition: all 0.3s ease 0s;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+  z-index: 999;
+  margin-top: 20px;
+}
+.linked a
+{
+  font-family:'Playfair Display' ;
+  color: #FAA292;
+  font-size: 20px;
+}
+/* ================================ Header CSS ============================== */
+.font
+{
+  font-family:'Playfair Display' ;
+  font-size: 22px!important;
+}
+.secview
+{
+  background-image: url(./image/asset\ 33.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+  z-index: 1;
+  position: relative;
+  height: 100vh;
+}
+.nav-link
+{
+  color: white!important;
+  padding-bottom: 0px!important;
+  margin-right: 15px;
+  border-bottom: 1px  solid white!important;
+ 
+}
+.auth_name
+{
+  text-transform: uppercase!important;
+  font-size: 20px;
+  color: #faa292;
+}
