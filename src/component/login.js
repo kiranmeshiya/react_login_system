@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState } from 'react';
 import axios from 'axios';
@@ -16,14 +16,8 @@ export default function Login() {
         setVal({ ...val, [e.target.name]: e.target.value })
     }
     
-    useEffect (() => {
-      
-    })
-
     const handleLogin = () => {
 
-       // console.log(val.username);
-        //  e.preventDefult();
         if(!val.username || !val.password)
         {
             setErr("All Field are Mandatory.")
@@ -32,7 +26,8 @@ export default function Login() {
         {
             axios.post('http://localhost/mycontact/login.php', {
                 name: val.username,
-                password: val.password})
+                password: val.password
+            })
                 .then(response => {
                      console.log(response.data)
                 if (response.data === "success") {
@@ -56,7 +51,7 @@ export default function Login() {
                     <img src={require('../image/asset 13.png')} alt="" />
                 </div>
                 <div className="container">
-                    <div className="row " style={{ paddingTop: '50px' }}>
+                    <div className="row" style={{ paddingTop: '50px' }}>
                         <div className="col-6 h-75 m-auto">
                             <div className="contact_bg3">
                                 <div className="section_title justify-content-space-between">

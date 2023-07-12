@@ -237,7 +237,7 @@ h1,h2,h3,h4,h5,h6
   padding: 50px 50px 15px;
   border-radius: 10px;
   background-color: rgb(255, 255, 255);
-  box-shadow: 2.5px 4.33px 15px 0px rgb(0 0 0 / 15%);
+  box-shadow: 2.5px 4.33px 15px 0px rgba(241, 239, 239, 0.966);
 }
 .section_title
 {
